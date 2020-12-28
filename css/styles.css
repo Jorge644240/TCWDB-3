@@ -1,0 +1,182 @@
+#title
+{
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2
+{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+#title button
+{
+    margin: 5% 3% 5% 0;
+}
+#title div img
+{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+#features
+{
+    background-color: #FFFFFF;
+    padding: 10% 10%;
+    position: relative; 
+}
+#features .row .col-lg-4
+{
+    padding: 0 5%;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+#features .row .col-lg-4 h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#features .row .col-lg-4 p
+{
+    color: #8F8F8F;
+}
+.fa-check-circle, .fa-bullseye, .fa-heart
+{
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover
+{
+    color: #FF4C68;
+}
+#testimonials
+{
+    padding: 10% 5%;
+    text-align: center;
+    background-color: #EF8172;
+    color: #FFFFFF;
+}
+#testimonials img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#testimonial-text
+{
+    font-size: 2em;
+}
+#press
+{
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#press img
+{
+    width: 15%;
+    margin: 0 3%;
+}
+.carousel-item
+{
+    padding: 0 10%;
+}
+#pricing .row
+{
+    padding: 1% 2%;
+}
+#pricing-title
+{
+    text-align: center;
+    padding: 5%;
+}
+.card
+{
+    margin: 5% 0;
+}
+.card-header
+{
+    text-align: center;
+}
+.card div
+{
+    padding: 10%;
+}
+.card button
+{
+    margin: 5%;
+}
+#cta
+{
+    background-color: #FF4C68;
+    padding: 5% 10%;
+    color: #FFFFFF;
+    text-align: center;
+}
+#cta h3
+{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    padding: 5%;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+footer
+{
+    text-align: center;
+    padding: 2%;
+    background-color: #FFFFFF;
+}
+footer .fa
+{
+    margin: 1% 2%;
+}
+@media screen and (max-width: 1028px)
+{
+    #title div img
+    {
+        position: static;
+        width: 100%;
+        padding: 10%;
+        transform: rotate(0);
+    }
+    #title 
+    {
+        text-align: center;
+    }
+}
